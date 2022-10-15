@@ -1,0 +1,195 @@
+/* Web Fonts ----------------------- */
+
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */
+}
+img {
+  width: 100%; /* responsive images */
+}
+body{
+  margin: 0px;
+}
+main{
+  max-width:  900px;;
+  width: 100%;
+  margin: auto;
+  margin: 0 1.4em 0 150px;
+}
+
+header{
+  background: url("../img/mountains.jpg"), #e49e69;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  background-blend-mode: multiply;
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+  margin: 0%;
+  box-shadow: inset 30px;
+}
+h1{
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.intro{
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+section{
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 200px;
+  border-bottom: dashed 2px black;
+  padding-top: 20px;
+  margin: auto;
+  padding-bottom: 5%;
+  margin-top: 50px;
+  
+}
+
+.callout{
+  background: linear-gradient(90deg, rgb(237, 233, 230), rgb(230, 131, 44), rgb(233, 134, 21));
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 15px 15px 15px 15px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 30%;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  
+}
+
+#wildlife{
+  background-image: url(../img/bear.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: solid 15px #d76c1a;
+  max-width: 1000px;
+  border-radius: 10px;
+  width: 90%;
+  padding-top: 15%;
+  margin: auto;
+  height: 70vh;
+  background-size: cover;
+  color: white;
+  margin-bottom: 20px;
+}
+#wildlife p{
+  padding-left: 10%;
+  padding-right: 15%;
+  font-family: 'Oswald', sans-serif;
+
+}
+#wildlife h2{
+  padding-left: 10%;
+  font-family: 'Oswald', sans-serif;
+}
+#wildlife p a{
+  color: #d76c1a;
+  text-decoration: none;
+}
+.column{
+  display: inline-block;
+  max-width: 900px ;
+  width: 80% ;
+  margin: auto;
+  vertical-align: top;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 5px;
+  padding-left: 20px;
+}
+.column ul li a{
+  text-decoration: none;
+}
+.column img{
+  max-width: 900px;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+}
+.column ul li a{
+  color: #d76c1a;
+}
+.main-footer{
+  text-align: center;
+}
+.main-footer a{
+  color: #d76c1a;
+}
+
+/* Main Styles --------------------- */
+
+
+/* Media Queries ------------------- */
+@font-face {
+  font-family: "goy font";
+src: url("../fonts/abolition-regular-webfont.woff") format("wolf") ;
+}
+
+h1 {
+  font-family: "goyfont";
+  letter-spacing: 3px;
+  line-height: 1.5rem;
+}
+li {
+  /* background-color: black; */
+  /* margin: 20px; */
+  list-style: none;
+  display: inline-block;
+  /* width: 100px; */
+}
+
+p {
+  font-family: "Work Sans";
+}
+h2:after {
+  font-size: 100px;
+  content: ' \2193';
+  display: block;
+  color:white ;
+  display: inline-block;
+  width: 150px;
+}
+div {
+  max-width: 900px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
+body {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+.card {
+  background-repeat: no-repeat;
+
+}
+.column {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+.column:first-child {
+justify-content: ;
+  margin-right: 17% ;
+  align-items: baseline;
+}
